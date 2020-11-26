@@ -1,0 +1,29 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Car - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSPD59.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Car.pdb" /debug /machine:I386 /out:"Debug/Car.exe" /pdbtype:sept 
+".\Debug\Car.obj"
+]
+Creating command line "link.exe @C:\Users\lenovo\AppData\Local\Temp\RSPD59.tmp"
+<h3>Output Window</h3>
+Linking...
+nafxcwd.lib(thrdcore.obj) : error LNK2001: unresolved external symbol __endthreadex
+nafxcwd.lib(thrdcore.obj) : error LNK2001: unresolved external symbol __beginthreadex
+libcd.lib(crt0.obj) : error LNK2001: unresolved external symbol _main
+Debug/Car.exe : fatal error LNK1120: 3 unresolved externals
+Ö´ÐÐ link.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+Car.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
